@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color:#333;
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            padding:15px;
+            
+
+        }
+        .item{
+            background-color:#999;
+            margin:0 ;
+            padding:23px;
+            height: 320px;
+            width: 340px;
+            border: 1px solid #000;
+          
+        }
+        .item1{
+          background-color:#999;
+            padding:23px;
+            height: 320px;
+            width:600px;
+            border: 1px solid #000;
+          
+
+        }
+        .item2{
+          background-color:#999;
+            padding:23px;
+            height: 320px;
+            width:350px;
+            border: 1px solid #000;
+          
+
+        }
+        
+     
+        nav ul {
+          background-color: aquamarine;
+          display :flex;
+    
+          flex: row;
+          padding: 12px;
+         
+        }
+
+        li {
+          
+          padding: 22px;
+          width: 100%;
+          border: 1 solid #dabcbc;
+         background: #333;
+         color: rgb(99, 204, 120);
+         text-decoration: none;
+         list-style: none;
+       
+        }
+        a{
+          color: aliceblue;
+        }
+       
+        footer{
+          height: 90px;
+          padding: 12px;
+          width: 100%;
+          background-color: rgb(86, 89, 88);
+        }
+    </style> 
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Noticias</a></li>
+      
+      <li><a href="index2.html">Html</a></li>
+      <li><a href="index3.html">Flexbox-Grid</a></li>
+      <li><a href="index4.html">Javascript</a></li>
+  </nav>
+  <section class="container">
+<article class="item"><iframe  width="358px" height="325px" src="https://www.youtube.com/embed/euhveGyucKY?si=f73KVmTNbOb_Eymn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</article>
+
+<article class="item1">
+
+  Desde Miami, el presidente Javier Milei defendió la ausencia del Estado nacional durante en la epidemia histórica de dengue tanto en la falta de repelentes como en la decisión de no agilizar los procesos para autorizar la aplicación de la vacuna. "El mercado lo resolvió solo", dijo el jefe de Estado sobre la falta de repelentes, aunque el argumento fue que el Ejecutivo levantó una "prohibición para importar" y no mencionó la demora en tomar esa medida. Sobre la vacunación contra el dengue, el presidente se opuso a realizarla este año porque "son efectivas si se aplica la segunda dósis y, en este momento, ya están desapareciendo los mosquitos, ya pasó el pico".
+  <img src="milei.jpg" width="450px" height="180px"alt="">
+</article>
+<article class="item2"><iframe width="358px" height="315px" src="https://www.youtube.com/embed/bhEGn9oq3Lc?si=VQ9zgu9FOX7WdcYD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+  </section>
+  <section class="container">
+    <article class="item"><iframe width="358px" height="325px" src="https://www.youtube.com/embed/dTDX-xfIyT4?si=kkU6yvk9J_5JghQD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+    <br>
+    <article class="item1">Todo Noticias (también conocido por sus siglas TN) es un canal de televisión por suscripción argentino, perteneciente al Grupo Clarín y operado por su subsidiaria Arte Radiotelevisivo Argentino. Orientado al tratamiento de temas de actualidad, su programación se basa en noticieros permanentes, aunque tiene una variada programación de interés general como música, tecnología, política, deportes, relatos, investigaciones, economía, espectáculos y demás. Según IBOPE, es el canal de noticias más visto de Argentina, superando a La Nación + y C5N.1​ Al igual que El Trece, este canal forma parte de la Alianza Informativa Latinoamericana, a través del grupo de medios de Artear.
+      <img src="tn.png" width="358px" height="180px"alt="">
+    </article>
+      <article class="item2"><iframe width="344" height="315" src="https://www.youtube.com/embed/BTVQVywZjxk?si=aExaOa5IZenXbTjx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+    
+      </section>
+      <footer><a href="https://mail.google.com/mail/u/1/?pc=topnav-about-es#inbox">
+
+        <img src="gmail.jpg" width="45px" height="50px" alt="">
+       </a>
+       Mi gmail nuevo
+        
+        
+       <a href="https://www.google.com/?hl=es/">
+        <img src="goo.jpg" width="45px" height="50px"alt="">
+      
+      </a>
+      Google aqui!!!
+        
+        
+        <a href="https://discord.com/channels/741237973663612969/793965679937323068">
+          <img src="dis.jpg"  width="45px" height="50px" alt="foto">
+        </a>
+        MI Discord !!
+       
+        <button onclick="hola()">Hecha por ?</button>
+      </footer>
+      <script>
+        function hola(){
+    document.write('Termina aca pero esta hecha con buen humor y cariño para ustedes-por Gustavo Fabris 2024')
+}
+
+ 
+      </script>
+</body>
+</html>
