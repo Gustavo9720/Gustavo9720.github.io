@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox Grid Artesanal</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    .container {
+      margin: auto;
+      max-width: 1200px;
+      background-color: #a0a343;
+    }
+
+    .flex-container {
+      display: grid;
+      flex-flow: row wrap;
+      grid-template-rows: auto;
+    }
+
+    .flex-item {
+      display: flex;
+      text-align: justify;
+      height:500px;
+      width: 100%;
+    }
+    .flex-item2{
+      display: flex;
+      flex-flow: row wrap;
+      padding:5px;
+      height:500px;
+      width: 100%;
+    }
+    .flex-item3{
+      display: flex;
+      flex-flow: row wrap;
+      height:500px;
+      width:100%;
+      border-bottom: 2 solid #201f1f;
+    }
+    .flex-item4{
+      display: flex;
+      padding: 12px;
+      text-align: center;
+    }
+    .flex-item5{
+      display: flex;
+      text-align: justify;
+      height:500px;
+      width: 100%;
+    }
+    
+    h1{
+      text-align: center;
+    }
+    p{
+      border: 2 solid #141313;
+      padding: 12px;
+    }
+    article{
+      border-style: 2 solid #141313;
+    }
+    footer{
+      display: flex;
+      flex-flow: row wrap;
+      height:62px;
+      width:100%;
+      background-color: rgb(86, 89, 89);
+      color: bisque;
+    }
+    
+      </style>
+</head>
+
+<body>
+  <h1>Flexbox Grid Artesanal</h1>
+  <div class="container">
+    <section class="flex-container">
+      <article class="flex-item">
+    
+     
+      <img src="noti2.avif" width="49%" height="450"alt=""><div><iframe width="555" height="200" src="https://www.youtube.com/embed/qTkVKH-xIy8?si=xsMUf0Ku_G3VnRK_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <p>“Aunque se tienen que cumplir determinadas cuestiones, creemos que la inflación va a estar en un dígito a partir de mayo”, coincidió María Castiglioni, socia de C&T asesores económicos. Los relevamientos de esa consultora indican que la inflación núcleo (que no contiene los precios regulados ni estacionales) y los precios de alimentos y bebidas están bajando. “Ya en estos primeros días de abril nos da que el rubro alimentos bajó 0,8%”, indicó.
+          A eso, la economista sumó que los ajustes de tarifas ya no tendrán tanto impacto en mayo, ni tampoco habrá componentes estacionales como el cambio de temporada de indumentaria o el aumento del consumo turístico.
+          Creemos que en mayo, la inflación ya va a estar en un dígito y con bastante margen, no en 9,9%. De ahí en más, si se mantiene el equilibrio fiscal y el ritmo de devaluación, con una brecha tranquila, todo indica que la inflación continuará en un dígito e irá consolidando la desaceleración mes a mes. La gran pregunta es a qué velocidad va a ser esa desaceleración”, sostuvo Castiglioni.
+
+
+          .</p>
+          <br>
+      
+      
+      </article>
+      <article class="flex-item2">
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/rYZYjHicmpU?si=JLOvkXvNwBPulgup" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/NcNYHQ7SZlE?si=4gtuYasjahfNrgsK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+        <iframe width="33%" height="315" src="https://www.youtube.com/embed/ba90zfu6srU?si=HU7YWPdtCFgs1ncJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Todo Noticias (también conocido por sus siglas TN) es un canal de televisión por suscripción argentino, perteneciente al Grupo Clarín y operado por su subsidiaria Arte Radiotelevisivo Argentino. Orientado al tratamiento de temas de actualidad, su programación se basa en noticieros permanentes, aunque tiene una variada programación de interés general como música, tecnología, política, deportes, relatos, investigaciones, economía, espectáculos y demás. Según IBOPE, es el canal de noticias más visto de Argentina, superando a La Nación + y C5N.1​ Al igual que El Trece, este canal forma parte de la Alianza Informativa Latinoamericana, a través del grupo de medios de Artear.</p>
+        </article>
+      
+      <article class="flex-item3">
+        <iframe width="49%" height="315" src="https://www.youtube.com/embed/WfDqFArJnYA?si=-mkUxRXODPtrFzWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="49%" height="315" src="https://www.youtube.com/embed/FQ8YdYFm_IM?si=xUs2dcnLZtzX-XBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Tutorial académico
+          En el lenguaje académico británico, un tutorial (/tjuːˈtɔːriəl/) es una pequeña clase de uno o más estudiantes, en la que el tutor ofrece atención individual a los estudiantes. Es lo que en castellano se conoce como tutoría. El sistema tutorial en las universidades de Oxford y Cambridge es fundamental en los métodos de enseñanza, el Heythrop College (Universidad de Londres), por ejemplo, también ofrece un sistema de tutorías individuales. En las universidades de Sudáfrica, Australia y Nueva Zelanda, un tutorial (coloquialmente llamado tute o tuden Sudáfrica) es una clase de 10 a 30 estudiantes. Estos tutoriales son muy similares al sistema canadiense, donde los tutoriales suelen ser dirigidos por los cum laude o estudiantes de postgrado, que reciben el nombre de Tutor.
+          
+          En la Saint John's College de Annapolis y en otras universidades de los Estados Unidos, utilizan una versión similar del programa Great Books, donde un tutorial es una clase de 12 a 16 estudiantes que se reúnen periódicamente con la guía de un tutor.
+          
+         </p>
+      </article>
+      <article class="flex-item4">
+       
+      <iframe width="555" height="315" src="https://www.youtube.com/embed/ggTlAT94DBE?si=Ilm0phnEb52g-hUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+        <p>El eclipse solar total de este lunes ofreció un espectáculo sorprendente para millones de personas en México, Estados Unidos y Canadá. Alrededor de las 2:00 p.m., hora de Miami, la Luna bloqueó el Sol total o parcialmente durante unos minutos en algunas zonas de Norteamérica..
+        ___ Así evolucionó el eclipse solar en diferentes partes del mundo
+        Muchas ciudades ubicadas dentro de la franja en donde se esperaba una oscuridad plena recibieron a miles de turistas que viajaron para ver el evento astronómico. El próximo eclipse solar total visible en Estados Unidos ocurrirá dentro de 20 años, en agosto de 2044.
+        
+        Mira las imágenes que dejó el eclipse solar total de este 8 de abril de 2024.Se utilizaron exposiciones múltiples en la creación de esta imagen compuesta digital. Se puede ver el avance del eclipse solar usando siete fotografías con cronómetro de intervalos para mostrar la evolución completa el 8 de abril de 2024 en Mazatlán, México. (Crédito: Hector Vivas/Getty Images)
+        Vista del eclipse solar total desde Nazas, estado de Durango, en México, el 8 de abril de 2024. (Crédito: HAARON ALVAREZ/AFP via Getty Images)
+          El puerto de Mazatlán, calificado por la NASA como el mejor lugar del mundo para observar el suceso astronómico, se oscureció durante el punto máximo del eclipse. (Crédito: Luis Felipe Solórzano)Personas observan el eclipse usando filtros para proteger la vista en el Cristo de Las Noas el 8 de abril de 2024 en Torreón, México. (Crédito: Saul Perales/Getty Images)
+          </p>
+      </article>
+      <article class="flex-item5">
+        
+      <img src="messi.jpg" width="49%" height="450"alt=""><div><iframe width="555" height="200" src="https://www.youtube.com/embed/UZMxlpI-BBc?si=UCPLtKeK_x_20DMh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>PSG-MANCHESTER CITY: RESULTADO, RESUMEN Y ESTADÍSTICAS
+          El Parque de los Príncipes celebró por fin el primer gol de Leo Messi con la camiseta del PSG. La Pulga puso la puntilla al Manchester City de Pep Guardiola en un partido en el que el conjunto francés no brilló, pero mostró todo el oficio con el que presenta su candidatura a ganar la Champions League. El gol de Gana en los primeros minutos fue gestionado y defendido con autoridad por un PSG protegido por Donnarumma, dique final que le negó el gol repetidas veces a Mahrez, De Bruyne (que pudo haber sido expulsado) y compañía. Cuando el partido enfilaba su recta final, una contra letal de Messi en asociación con Mbappé terminó sentenciando un partido que pasará a la historia por ser la primera vez que el 30 marcaba un gol con otra camiseta distinta a la del Barcelona o Argentina.
+
+
+         .</p>
+
+      </article>
+     
+     
+    </section>
+   <footer><p>Hecha por Autoridad de Gustavo Fabris, 2024/4/13.</p></footer>
+  </div>
+</body>
+
+</html>
